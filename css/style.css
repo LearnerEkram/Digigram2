@@ -1,0 +1,864 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* root variable for color we craet here  */
+:root{
+    --primary-color: #6C55F9;
+    --white: #fff;
+    --black: #111;
+}
+.primary-color{
+    color: var(--primary-color);
+}
+.width-30px{
+    width: 70px;
+    height: 3px;
+    background: var(--primary-color);
+}
+body{
+    font-family: Verdana, "sans-serif";
+}
+#header-section{
+    border-bottom: 2px solid #ccc;
+    transition: .3s;
+}
+#header-section #nav-bar{
+    padding: 10px;
+    margin-top: 25px;
+    background: #fff;
+    opacity: .9;
+    transition: .3s;
+}
+#nav-bar #main-logo{
+    font-weight: 900;
+    font-size: 1.3rem;
+    
+}
+
+#nav-bar #nav-lists li a{
+    color: #111;
+    opacity: .7;
+    font-weight: 500;
+}
+#nav-bar #nav-lists li .activeItem{
+    color: var(--primary-color);
+}
+#nav-bar #nav-lists li a:hover{
+    opacity: 1;
+}
+#nav-bar #nav-lists li .getAQuote{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+#nav-bar #nav-lists li .getAQuote:hover{
+  transition: .3s;
+    opacity: 1;
+}
+
+/* nav bar design end here  */
+
+/* companies section style design start from here  */
+
+#head-companies{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    
+}
+#companies-info{
+    width: 100%;
+    margin: 45px 0px;
+}
+.companies-img{
+    margin-top: 10px;
+}
+#head-companies .companies-details{
+    margin: 70px 7%;
+}
+.companies-details h1{
+    font-weight: 500;
+    margin-top:10px;
+    margin-bottom: 40px;
+    text-align:justify;
+    font-size: 2.1rem;
+    letter-spacing:-2px;
+}
+.companies-details p{
+    margin-top:28px;
+   margin-bottom: 55px;
+    text-align: justify;
+    opacity:.6;
+    font-size: 17px;
+}
+.companies-details a{
+    margin-top:20px;
+}
+.companies-details .info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #111;
+    opacity: .6;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.companies-details .watchVideo{
+background-color: var(--primary-color);
+color: #fff;
+border-radius: 30px;
+padding: 15px;
+font-size: 18px;
+text-decoration: none;
+}
+.companies-details .watchVideo i{
+    margin-left: 7px;
+}
+/* companies section style design end here  */
+
+/* provide section design style start from here  */
+#providing-section{
+    border-bottom: 1px solid #ccc;
+}
+.provide-info{
+    margin: 80px 7%;
+   
+}
+.provide-item{
+    line-height: 10px;
+    /* margin-bottom: 40px; */
+}
+.provide-item img{
+    width: 100px;
+    height: 100px;
+}
+.provide-item h2{
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.provide-item p{
+    font-size: 13px;
+}
+/* provide section design style end here  */
+/* dynamic section design style start from here  */
+
+#dynamic-section{
+    margin: 90px 0px;
+    
+}
+.dynamic-info{
+    margin-bottom: 60px;
+}
+.dynamic-info h1{
+    margin-top: 40px;
+}
+.dynamic-info p{
+    margin-top: 40px;
+    opacity: .6;
+    font-size: 15px;
+}
+.dynamic-img{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+/* dynamic section design style end here  */
+
+/* counting card  design start form here  */
+#count-section{
+margin: 120px 0px;
+}
+.count-info .card{
+width: 100%;
+height: 200px;
+box-sizing: border-box;
+line-height: 10px;
+}
+.count-info .card p{
+    text-transform: capitalize;
+    font-size: 15px;
+    opacity: .6;
+    margin-top: 70px;
+   
+}
+
+/* counting card  design end here  */
+
+/* redy section start from here  */
+
+#redy-section{
+    margin: 100px 0px;
+}
+.redy-info{
+    margin: 120px 0px;
+}
+.redy-info h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 15px 0px;
+    opacity: .8;
+}
+.redy-info p{
+    font-size: 16px;
+    opacity: .7;
+    margin: 50px 0px;
+}
+.redy-info .link-1{
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 15px 20px  0px;
+}
+.redy-info .link-1:hover{
+    opacity: .8;
+    transition: .3s;
+}
+.redy-info .link-2{
+    text-decoration: none;
+    border: 1px solid var(--black);
+    padding: 15px;
+    color: var(--black);
+    margin: 20px 0px;
+    opacity: .7
+}
+.redy-info .link-2:hover{
+    opacity: 1;
+}
+
+.redy-img img{
+    margin: 100px 50px;
+}
+/* redy section end here  */
+
+/* comfort section disign start from here  */
+#comfort{
+    margin: 100px 0px;
+}
+.comfort-header p{
+    text-transform: uppercase;
+    color: var(--black);
+    opacity: .6;
+    margin: 15px  0px;
+    font-size: 19px;
+}
+.comfort-header h1{
+    font-size: 30px;
+    font-weight: 600;
+    opacity: .8;
+    text-transform: capitalize;
+
+}
+.comfort-header div{
+    margin: 20px auto;
+}
+
+.comfort-info .fa-icon{
+    font-size: 60px;
+    margin: 20px auto; 
+}
+.comfort-info h2{
+    font-size: 23px;
+    text-transform: capitalize;
+    opacity: .8;
+    margin:15px 0px;
+
+}
+.comfort-info p{
+    font-size: 16px;
+    opacity: .7;
+    margin: 20px 50px;
+}
+/* comfort section disign  end here  */
+
+/* pricing section design start form here  */
+
+#pricing-section{
+    margin: 120px 0px;
+
+}
+.pricing-head{
+    margin: 40px 0px;
+}
+#pricing-head h1{
+    margin-bottom: 20px;
+    opacity: .9;
+    font-weight: 500; 
+}
+#pricing-head div{
+    margin: 30px auto;
+}
+.card-details .pric-icon i{
+    font-size: 20px;
+
+}
+
+.card.text-center.card-details {
+    margin:  100px 0px;
+    padding: 10px;
+    /* width: 300px; */
+}
+.card-info{
+    width: 75%;
+    margin: auto;
+}
+
+/* card design start form here  */
+.pric-icon {
+    font-size: 32px;
+}
+
+.pric-icon i.fas {
+    font-size: 45px;
+    margin: 15px auto;
+    opacity: .7;
+    /* color: var(--white); */
+}
+
+h2.card-title {
+    text-transform: uppercase;
+    font-size: 22px;
+    opacity: .6;
+    margin: 30px 0px;
+}
+
+.price-head {
+    opacity: .9;
+    position: relative;
+    width: 200px;
+    margin: auto;
+}
+
+sup {
+    position: absolute;
+    top: 22px;
+    left: 39px;
+    opacity: .6;
+}
+
+sub {
+    position: absolute;
+    bottom: 10px;
+    right: -35px;
+    opacity: .6;
+}
+
+.card-details p {
+    margin: 40px 0px;
+    text-transform: capitalize;
+    opacity: .6;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a.price-link {
+    border: 1px solid var(--black);
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 20px;
+    opacity:.8;
+    transition: .3s;
+}
+a.price-link:hover{
+    opacity: 1;
+}
+
+/* making colorable the second div  */
+.card-details-2 {
+    background: #6C55F9;
+    position: relative;
+}
+
+.pric-icon-2 {
+    color: var(--white);
+    opacity: .6;
+}
+
+.brand {
+    position: absolute;
+    background: #0AC7F6;
+    padding: 0px 24px;
+    top: 19px;
+    right: -20px;
+    width: 103px;
+    height: 26px;
+    transform: rotate(45deg);
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 200px 200px 0px 0px;
+    /* overflow: hidden; */
+}
+
+.card-title-2 {
+    color: #FAACCE;
+    opacity: 1;
+}
+
+.price-head-2 {color: var(--white);}
+
+.lead-2 {
+    color: var(--white);
+}
+
+.price-link-2 {
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity:.8;
+    transition: .3s;
+}
+.price-link-2:hover{
+    background:var(--white);
+    color:var(--black);
+}
+/* pricing section design end here  */
+
+/* founder caraousel section design start from here  */
+#carousel-section{
+    margin: 100px 0px ;
+}
+#carousel-inner{
+    height: 520px;
+}
+.carousel-info img{
+    border-radius: 30px;
+    margin: auto;
+}
+.founder-details{
+    margin: 50px 0px;
+}
+
+.founder-details .para{
+    text-transform: capitalize;
+    text-align: justify;
+    opacity: .6;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.founder-details .founder-title{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.founder-details .post{
+    display: inline-block;
+    opacity: .6;
+  
+}
+.founder-details .post::before{
+    content: "-"
+
+}
+/* founder caraousel section design end here  */
+
+/* getIntouch section deisgn start from here  */
+#gerInTouch{
+    margin: 150px 0px;
+}
+.touch-details{
+    margin: 30px 0px;
+}
+.getTouch {
+    margin: 65px 0px;
+    line-height: 17px;
+}
+.touch-details .touch-head h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 26px;
+    margin:10px 0px;
+}
+.touch-details .width-30px{
+    margin: 30px 0px;
+}
+.touch-details p{
+    font-size: 15px;
+    opacity: .6;
+
+}
+.location .local-icon i{
+    color: var(--primary-color);
+    border: 1px solid  var(--black);
+    border-radius: 50%;
+    padding: 10px;
+}
+.location .local-info{
+    margin: 10px 10px;
+    opacity: .8;
+    font-weight: 500;
+}
+.messege .msg-icon i{
+    color: var(--primary-color);
+    border: 1px solid  var(--black);
+    border-radius: 50%;
+    padding: 10px;  
+}
+.messege .msg-info{
+    margin: 10px 10px;
+    opacity: .8;
+    font-weight: 500;
+}
+.mobile-cell .mobile-icon i{
+    color: var(--primary-color);
+    border: 1px solid  var(--black);
+    border-radius: 50%;
+    padding: 10px;  
+}
+.mobile-cell .mobile-info{
+    margin: 10px 10px;
+    opacity: .8;
+    font-weight: 500;
+}
+/* getInTouch section design strat from here  */
+
+/* contact us form section design start from here  */
+.getTouch {
+    margin: 65px 0px;
+    line-height: 17px;
+    box-sizing: border-box;
+}
+
+.contact-head para {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    opacity: .6;
+}
+
+.contact-head .para {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    opacity: .5;
+}
+
+/* .contact-form {
+    margin: 0px 20px;
+} */
+
+.contact-head h1 {
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+}
+
+form div input,textarea {
+    margin: 10px;
+    border: none;
+}
+
+input.input-btn {
+    background: var(--primary-color);
+    padding: 5px 15px;
+    color:  var(--white);
+    text-transform: capitalize;
+    border-radius: 35px;
+    margin: 17px 34px;
+    transition: .3s;
+}
+input.input-btn:hover{
+    background-color: #645F88;
+}
+/* contact us from section design end here  */
+
+/* blog section design start from here  */
+.card-section {
+    width: 85%;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 0px 0px 0px 15px #ccc;
+
+}
+
+.news-head p {
+    text-transform: uppercase;
+    opacity: .4;
+    font-size: 19px;
+}
+
+.news-head h1 {
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.news-head .width-30px {
+    margin: 30px auto;
+}
+/* main design start from here  */div#card-section {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.head-img img {
+    margin: 15px;
+}
+
+.head-detils {
+    line-height: 2px;
+    margin: 29px 0px 0px 0px;
+}
+.head-detils p.lead {
+    font-size: 14px;
+    opacity: .4;
+    letter-spacing: -1px;
+}
+
+.card-body .card-link {
+    text-decoration: none;
+    color:  var(--black);
+}
+
+.card-body p.lead {
+    font-size: 14px;
+    margin: 22px 0px;
+    opacity: .4;
+}
+
+.card-body .readMore {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a.readMore i {
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.discover-btn {
+    border: 2px solid var(--primary-color);
+    width: 180px;
+    margin:  20px auto;
+    padding: 3px 10px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.discover-btn a {
+    text-decoration: none;
+    color:  var(--primary-color);
+    text-transform: uppercase;
+    transition: .4s;
+}
+.discover-btn:hover{
+    background-color: var(--primary-color);
+}
+.discover-btn:hover a{
+    color: var(--white);
+}
+/* blog section design  end here  */
+
+/* clients section design start from here  */
+div#clinets-section {
+    margin: 130px auto;
+    box-sizing: border-box;
+}
+.airbnb img {
+    margin: 19px 30px;
+}
+
+.google img {
+    margin: 26px 30px;
+}
+
+.paypal img {
+    margin:  20px 30px;
+}
+
+.strip img {
+    margin: 20px 30px;
+}
+
+.mailchimp img {
+    margin:  20px auto;
+}
+/* clients section design start end  here  */
+
+/* footer section design start from here  */
+div#footer-section {
+    margin: 100px 37px;
+}
+h1#main-logo {
+    font-size: 25px;
+    font-weight: 600;
+    opacity: .7;
+}
+.digigram p.lead {
+    font-size: 16px;
+    opacity: .5;
+    margin: 24px 0px;
+}
+.digigram p a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 15px;
+}
+/* quick link section design here  */
+
+.quick-link h1.title {
+    font-size: 25px;
+    opacity: .7;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+}
+.quick-link p a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--black);
+    margin: 20px 0px;
+    opacity: .6;
+    transition: .3s;
+}
+.quick-link p a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+/* about us section design here  */
+.about-us {
+    margin: 0px 0px 20px 0px;
+}
+.about-us h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    opacity: .7;
+}
+.about-us p a {
+    color: var(--black);
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-top: 20px;
+    opacity: .6;
+    transition: .3s;
+}
+.about-us p a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+/* subscribe section design here  */
+.subscribe {
+    margin: 0px 0px 20px 0px;
+}
+.subscribe h1 {
+    font-size: 25px;
+    font-weight: 600;
+    opacity: .7;
+}
+form .input-group input {
+    height: 55px;
+    margin: 19px 0px 20px 0px;
+}
+.subscribe-icon i {
+    padding: 10px;
+    /* border: 1px solid var(--black); */
+    border-radius: 50%;
+    background: #ccc;
+    opacity: .3;
+    transition: .5s;
+    margin: 20px 5px;
+    font-size: 20px;
+}
+.subscribe-icon i:hover {
+    color: var(--white);
+    transform: rotate(360deg);
+    background: var(--primary-color);
+}
+
+
+.col-6.foot-info {
+    font-size: 15px;
+    opacity: .6;
+}
+
+.main-footer {
+    margin: 20px 0px;
+}
+.col-6.foot-link {
+    position: relative;
+}
+.col-6.foot-link a {
+    color: var(--black);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a.link-1 {
+    margin-left: 30%;
+}
+
+.link-2:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+a.backToUp {
+    position: absolute;
+    top: -20px;
+    right: -32px;
+    /* border: 1px solid var(--black); */
+    border-radius: 50%;
+    padding: 10px;
+    background: var(--primary-color);
+    /* color: #fff; */
+    width: 50px;
+    text-align: center;
+}
+
+a.backToUp i {
+    color: var(--white);
+}
+
+a.backToUp:hover i {
+    opacity: .6;
+}
+/* footer section design end here  */
+
+
+/* --------------------------------
+--------------------------------
+-------------------------------- */
+
+/* about me page design  */
+.about-me {
+    margin: 163px auto;
+}
+.main-div{
+    margin : 20% auto; 
+    background: #E6E2FE;
+    text-align: center;
+    height: 400px;
+    border-radius: 20px;
+    /* opacity: .8; */
+}
+.div-content{
+    margin: 30px auto;
+    transform: translate(10px, 155px);
+}
+.div-head {
+    font-size: 35px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+a.about-link{
+    opacity: .5;
+}
